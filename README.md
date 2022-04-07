@@ -18,3 +18,33 @@ publicly available at https://www.cavs.msstate.edu/resources/downloads/CaT/CaT.t
 
 # Training with CaT dataset
 --Download and extract the CaT dataset from [here](https://www.cavs.msstate.edu/resources/downloads/CaT/CaT.tar.gz). Set the path before "Train" and "Test" folders inside the data pack in train.py and test.py scripts.
+--Download the pretrained resnet models from [here](https://download.pytorch.org/models/resnet101-5d3b4d8f.pth) and put it in trained model/trained_models.
+--Run python3 train.py while being in the main folder where the train.py file resides.
+--After training is complete the final trained model is saved in logs/cat as net_latest.pth. Other intermediate models can be ignored or deleted if they are no more of use.
+
+# Testing
+--Run python3 test.py and the predicted RGB images are saved in results/cat.
+
+# Requirements
+-Ubuntu >=16.04
+-Python3.6
+-Pytorch >=0.4
+-opencv-python, Numpy
+
+# Acknowledgements
+--The model scripts are taken from [here](https://github.com/hszhao/semseg). We are very much thankful for the authors for sharing their codes.
+
+# Citation
+If you find the dataset and the results helpful please consider citing our paper as:
+
+@article{sharma2022cat,
+  title={CaT: CAVS Traversability Dataset for Off-Road Autonomous Driving},
+  author={Sharma, Suvash and Dabbiru, Lalitha and Hannis, Tyler and Mason, George and Carruth, Daniel W and Doude, Matthew and Goodin, Chris and Hudson, Christopher     and Ozier, Sam and Ball, John E and others},
+  journal={IEEE Access},
+  volume={10},
+  pages={24759--24768},
+  year={2022},
+  publisher={IEEE}
+}
+
+
