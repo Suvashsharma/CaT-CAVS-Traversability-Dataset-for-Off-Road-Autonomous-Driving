@@ -17,4 +17,4 @@ CaT (CAVS Traversability, where CAVS stands for Center for Advanced Vehicular Sy
 publicly available at https://www.cavs.msstate.edu/resources/downloads/CaT/CaT.tar.gz.
 
 # Training with CaT dataset
---Download and extract the CaT dataset from [here] (https://www.cavs.msstate.edu/resources/downloads/CaT/CaT.tar.gz). Set the path before "Train" and "Test" folders inside the data pack in train.py and test.py scripts.
+--Download and extract the CaT dataset from [here](https://www.cavs.msstate.edu/resources/downloads/CaT/CaT.tar.gz). Set the path before "Train" and "Test" folders inside the data pack in train.py and test.py scripts.
