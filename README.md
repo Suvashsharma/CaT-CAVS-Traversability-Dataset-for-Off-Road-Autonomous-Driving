@@ -15,3 +15,5 @@ capability of those vehicles. So the proposed dataset facilitates the segmentati
 into three regions based on the nature of the driving area and vehicle capability. We call this dataset as
 CaT (CAVS Traversability, where CAVS stands for Center for Advanced Vehicular Systems) dataset and is
 publicly available at https://www.cavs.msstate.edu/resources/downloads/CaT/CaT.tar.gz.
+
+# Training with CaT dataset
